@@ -1,0 +1,22 @@
+{
+  "name": "insteode",
+  "version": "0.0.0",
+  "description": "Provides a simple API to send commands to an insteon modem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Catacola/insteode.git"
+  },
+  "keywords": [
+    "insteon",
+    "node"
+  ],
+  "author": "Anthony Kesich <anthony@akesich.com> (http://kesi.ch/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Catacola/insteode/issues"
+  }
+}
