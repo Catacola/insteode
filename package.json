@@ -18,5 +18,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Catacola/insteode/issues"
+  },
+  "dependencies": {
+    "serialport": "~1.4.6"
   }
 }
