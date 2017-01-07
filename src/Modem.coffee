@@ -79,6 +79,7 @@ class Modem
             resolve()
       )
 
+exports.Modem = Modem
 
 detectPLMPort = () ->
   new Promise (resolve, reject) ->
@@ -94,5 +95,7 @@ detectPLMPort = () ->
         reject new Error "No PLM found"
       else
         resolve port.comName
+
+exports.detectPLMPort = detectPLMPort
 
 
