@@ -20,7 +20,11 @@
     "url": "https://github.com/Catacola/insteode/issues"
   },
   "dependencies": {
-    "serialport": "~1.4.6",
+    "serialport": "~4.0.7",
     "underscore": "~1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.58",
+    "typescript": "^2.1.4"
   }
 }
